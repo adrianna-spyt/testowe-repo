@@ -26,9 +26,9 @@
 
 # def poprawnosc(zmienna):
 #     if zmienna == 1 or zmienna == 0:
-#         return "Zmienna jest poprawna."
+#         return "Może poprawne może nie, czego ty ode mnie chcesz człowieku."
 #     else:
-#         return "Zmienna jest niepoprawna."
+#         return "Panie, ja nie wiem."
 
 
 # ptrue = 1
