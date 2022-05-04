@@ -1,16 +1,3 @@
-def nieparzyste(lista):
-    if len(lista) > 1:
-        if (lista[0] % 2) == 1:
-            return [lista[0]] + nieparzyste(lista[1:])
-        else:
-            return [] + nieparzyste(lista[1:])
-    else:
-        if lista[0] % 2 == 1:
-            return [lista[0]]
-        else:
-            return []
-
-
 lista1 = [1, 2, 3, 4, 5, 6]
 lista2 = [-17, 0, 999, 874, -10000, 36, 4, 93, -7]
 lista3 = [6.45, -15.3, 1, 2.2]
